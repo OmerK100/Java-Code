@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RemindersController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ComboBox fx:id="monthCombo" onAction="#monthChosen" prefWidth="150.0" promptText="Month" />
+            <ComboBox fx:id="dayCombo" prefWidth="150.0" promptText="Day" />
+            <ComboBox fx:id="yearCombo" prefWidth="150.0" promptText="Year" />
+         </children>
+      </HBox>
+      <HBox prefHeight="215.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="reminderText" alignment="TOP_LEFT" prefHeight="215.0" prefWidth="600.0" promptText="Reminder:" />
+         </children>
+      </HBox>
+      <GridPane prefHeight="92.0" prefWidth="600.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="269.00001220703126" minWidth="10.0" prefWidth="120.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="280.4" minWidth="10.0" prefWidth="120.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="327.20001220703125" minWidth="10.0" prefWidth="120.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="327.20001220703125" minWidth="10.0" prefWidth="120.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="327.20001220703125" minWidth="10.0" prefWidth="120.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#savePressed" text="Save Reminder" GridPane.halignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#showPressed" text="Show" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#finishPressed" prefWidth="54.0" text="Finish" GridPane.columnIndex="2" GridPane.halignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#resetPressed" text="Reset" GridPane.columnIndex="3" GridPane.halignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#addPressed" text="Add File" GridPane.columnIndex="4" GridPane.halignment="CENTER" />
+         </children>
+      </GridPane>
+   </children>
+</VBox>
