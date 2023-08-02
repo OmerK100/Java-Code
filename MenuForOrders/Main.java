@@ -1,4 +1,4 @@
-/* Advanced Java - MAMAN13EX2 - Omer Komissarchik - 215314725 */
+/* Menu for orders within a restaurant - Omer Komissarchik - 215314725 */
 /* Main class contains the main function of this program and knows how to run the JavaFX program. */
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
