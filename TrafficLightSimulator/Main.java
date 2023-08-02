@@ -1,4 +1,4 @@
-/* Advanced Java - MAMAN15EX2 - Omer Komissarchik - 215314725 */
+/* A traffic light simulator using GUI and multithreading for the parallel flickering of the lights - Omer Komissarchik - 215314725 */
 /* Main class, runs the application. */
 import javafx.application.Application;
 import javafx.application.Platform;
