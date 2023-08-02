@@ -1,4 +1,4 @@
-/* Advanced Java - MAMAN15EX1 - Omer Komissarchik - 215314725 */
+/* Matrix product calculator with input output and multithreading - Omer Komissarchik - 215314725 */
 /* Main class runs the matrix multi-threading simulation through user input. */
 import java.util.Scanner;
 
