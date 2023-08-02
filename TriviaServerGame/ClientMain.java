@@ -1,4 +1,4 @@
-/* MAMAN 16 - EX1 - Omer Komissarchik - 215314725 */
+/* Trivia game - Omer Komissarchik - 215314725 */
 // class ClientMain handles running the client's GUI in our connection.
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
