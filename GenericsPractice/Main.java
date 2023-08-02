@@ -1,4 +1,4 @@
-/* Advanced Java - MAMAN14EX1 - Omer Komissarchik - 215314725 */
+/* Generics practice on data structres - Omer Komissarchik - 215314725 */
 /* Main class executes a demonstration of the SortedGroup class and the functions that it has through with Student objects that implement Comparable. */
 import java.util.Iterator;
 import java.util.Scanner;
