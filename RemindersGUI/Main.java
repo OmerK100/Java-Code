@@ -1,4 +1,4 @@
-/* Advanced Java - MAMAN14EX2 - Omer Komissarchik - 215314725 */
+/* Reminders - Omer Komissarchik - 215314725 */
 /* Main class contains the main function of this program and knows how to run the JavaFX program. */
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
