@@ -1,4 +1,4 @@
-/* Advanced Java - MAMAN13EX1 - Omer Komissarchik - 215314725 */
+/* Sudoku game with JavaFX GUI - Omer Komissarchik - 215314725 */
 /* Main class contains the main function of this program and knows how to run the JavaFX program. */
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
