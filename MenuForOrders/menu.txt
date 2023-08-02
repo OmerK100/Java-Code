@@ -1,0 +1,48 @@
+Salad
+Appetizer
+12.3
+Sandwich
+Main Course
+15
+Bread
+Appetizer
+7.5
+Steak
+Main Course
+95.99
+Fish
+Main Course
+103.95
+Hamburger
+Main Course
+79.90
+Grape Juice
+Beverage
+12.20
+Candy
+Last Meal
+19.50
+Cheese
+Appetizer
+25
+Apple Juice
+Beverage
+10
+Cake
+Last Meal
+35.90
+Pizza
+Main Course
+69.95
+Cupcake
+Last Meal
+13
+Rice
+Appetizer
+27
+Water
+Beverage
+10
+Ice Cream
+Last Meal
+15.60
